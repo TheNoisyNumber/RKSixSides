@@ -14,6 +14,7 @@ class CubeState {
     var velocityY: Float = .zero
 }
 
+
 class CubeSpaceView: ARView {
     var arView: ARView {return self}
     private var cubeUpdate: Cancellable?
